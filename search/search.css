@@ -31,6 +31,13 @@ h1 {
   left: 50%;
 }
 
+.result-container {
+  position: absolute;
+  margin-left: -120px;
+  top: 180px;
+  left: 50%;
+}
+
 .result, .search-bar {
   text-rendering: optimizelegibility;
   width: 240px;
@@ -44,12 +51,12 @@ h1 {
 .search-bar {
   border: 1px solid transparent;
   position: absolute;
-  background: transparent;
-  color: #666;
+  background: white;
+  color: white;
   top: 0;
 }
 
 .result {
-
+  border: 1px solid transparent;
   color: #bebebe;
 }
