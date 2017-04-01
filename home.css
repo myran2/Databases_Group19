@@ -20,9 +20,6 @@ body {
 }
 
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,900);
-
-
 //base styles
 
 * {
@@ -191,7 +188,7 @@ p a:hover {
 }
 .btn-1 rect {
   fill: none;
-  stroke: #fff;
+  stroke: #F77D03;
   stroke-width: 2;
   stroke-dasharray: 422, 0;
 }
