@@ -27,7 +27,8 @@ var document = window.document,
       'waffles',
       'x-rays',
       'yard sale',
-      'zappos'
+      'zappos',
+      'pyroblast'
     ],
 
       _rEscapeChars = /\/|\\|\.|\||\*|\&|\+|\(|\)|\[|\]|\?|\$|\^/g,
