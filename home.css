@@ -1,7 +1,7 @@
 body {
-  padding-top: 70px;
-  padding-bottom: 30px;
-  background-color: #F77D03;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #363b41;
 }
 
 
@@ -183,7 +183,7 @@ p a:hover {
 }
 
 .btn-1 {
-  background: #F77D03;
+  background: #363b41;
   font-weight: 100;
 }
 .btn-1 svg {
