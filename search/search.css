@@ -42,14 +42,13 @@ h1 {
 }
 
 .search-bar {
-  border: 1px solid transparent;
+  border: 1px solid;
   position: absolute;
-  background: transparent;
-  color: #666;
+  background: #FFFFFF;
+  color: #3b4148;
   top: 0;
 }
 
 .result {
-
   color: #bebebe;
 }
