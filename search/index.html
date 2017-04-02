@@ -11,56 +11,56 @@
   </head>
   <body>
     <div class="container">
-      <h1 class="center h1">Start by typing "pyroblast", or something else.<br/> Press tab or enter to autocomplete.</h1>
+      <h1 class="center h1">Start by typing "pyroblast", or something else.<br/></h1>
       <div class="search-container">
+        <span class="glyphicon glyphicon-search" id="basic-addon1"> </span>
         <form>
-          <!--<input type="text" class="result"> -->
-          <input type="text" class="search-bar" placeholder="Search">
+          <input type="text" class="search-bar" placeholder="Search" aria-describedby="basic-addon1">
         </form>
       </div>
-      
-<div id="col-md-3">
-  <div class="list-group panel">
-    <a class="list-group-item list-group-item strong text-center" style="background: #3b4148; color: white;" data-toggle="collapse"> Filters</a>
-    <a href="#demo1" class="list-group-item list-group-item-success strong" style="background: #f7f7f7;" data-toggle="collapse" data-parent="#MainMenu"><i class="fa fa-photo"></i>Class <i class="fa fa-caret-down"></i></a>
-    <div class="collapse list-group-submenu" id="demo1">
-      <a href="#" class="list-group-item"><input type="checkbox">  Druid</a>
-      <a href="#" class="list-group-item"><input type="checkbox">  Mage</a>
-      <a href="#" class="list-group-item"><input type="checkbox">  Paladin</a>
-      <a href="#" class="list-group-item"><input type="checkbox">  Barbarian</a>
-    </div> 
-    <a href="#demo2" class="list-group-item list-group-item strong" style="background: #f7f7f7;" data-toggle="collapse" data-parent="#MainMenu"><i class="fa fa-book"></i> Mana Cost <i class="fa fa-caret-down"></i></a>
-    <div class="collapse list-group-submenu" id="demo2">
-      <a href="#" class="list-group-item"><input type="checkbox">  1</a>
-      <a href="#" class="list-group-item"><input type="checkbox">  2</a>
-      <a href="#" class="list-group-item"><input type="checkbox">  3</a>
-      <a href="#" class="list-group-item"><input type="checkbox">  4</a>
-      <a href="#" class="list-group-item"><input type="checkbox">  5</a>
-    </div>
-    <a href="#demo4" class="list-group-item list-group-item strong" style="background: #f7f7f7;" data-toggle="collapse" data-parent="#MainMenu"><i class="fa fa-language"></i> Attack <i class="fa fa-caret-down"></i></a>
-    <div class="collapse list-group-submenu" id="demo4">
-      <a href="#" class="list-group-item"><input type="checkbox">  0</a>
-      <a href="#" class="list-group-item"><input type="checkbox">  1</a>
-      <a href="#" class="list-group-item"><input type="checkbox">  2</a>
-      <a href="#" class="list-group-item"><input type="checkbox">  3</a>
-      <a href="#" class="list-group-item"><input type="checkbox">  4</a>
-      <a href="#" class="list-group-item"><input type="checkbox">  5</a>
-  
-    </div>
-    <a href="#demo5" class="list-group-item list-group-item strong" style="background: #f7f7f7;" data-toggle="collapse" data-parent="#MainMenu"><i class="fa fa-cubes"></i>  Health <i class="fa fa-caret-down"></i></a>
-    <div class="collapse list-group-submenu" id="demo5">
-      <a href="#" class="list-group-item"><input type="checkbox">  0</a>
-      <a href="#" class="list-group-item"><input type="checkbox">  1</a>
-      <a href="#" class="list-group-item"><input type="checkbox">  2</a>
-      <a href="#" class="list-group-item"><input type="checkbox">  3</a>
-      <a href="#" class="list-group-item"><input type="checkbox">  4</a>
-      <a href="#" class="list-group-item"><input type="checkbox">  5</a>
-      <a href="#" class="list-group-item"><input type="checkbox">  6</a>
-      <a href="#" class="list-group-item"><input type="checkbox">  7</a>
-    </div>
-      <a class="list-group-item list-group-item strong text-center" style="background: #3b4148; color: white;" data-toggle="collapse"><button type="button" class="btn btn-warning">search</button> </a>
-  </div>
-</div>
+
+      <div id="col-md-3">
+        <div class="list-group panel">
+          <a class="list-group-item list-group-item strong text-center" style="background: #3b4148; color: #f7f7f7;" data-toggle="collapse"> Filters</a>
+          <a href="#demo1" class="list-group-item list-group-item-success strong" style="background: #f7f7f7;" data-toggle="collapse" data-parent="#MainMenu"><i class="fa fa-photo"></i>Class <i class="fa fa-caret-down"></i></a>
+          <div class="collapse list-group-submenu" id="demo1">
+            <a href="#" class="list-group-item"><input type="checkbox">  Druid</a>
+            <a href="#" class="list-group-item"><input type="checkbox">  Mage</a>
+            <a href="#" class="list-group-item"><input type="checkbox">  Paladin</a>
+            <a href="#" class="list-group-item"><input type="checkbox">  Barbarian</a>
+          </div> 
+          <a href="#demo2" class="list-group-item list-group-item strong" style="background: #f7f7f7;" data-toggle="collapse" data-parent="#MainMenu"><i class="fa fa-book"></i> Mana Cost <i class="fa fa-caret-down"></i></a>
+          <div class="collapse list-group-submenu" id="demo2">
+            <a href="#" class="list-group-item"><input type="checkbox">  1</a>
+            <a href="#" class="list-group-item"><input type="checkbox">  2</a>
+            <a href="#" class="list-group-item"><input type="checkbox">  3</a>
+            <a href="#" class="list-group-item"><input type="checkbox">  4</a>
+            <a href="#" class="list-group-item"><input type="checkbox">  5</a>
+          </div>
+          <a href="#demo4" class="list-group-item list-group-item strong" style="background: #f7f7f7;" data-toggle="collapse" data-parent="#MainMenu"><i class="fa fa-language"></i> Attack <i class="fa fa-caret-down"></i></a>
+          <div class="collapse list-group-submenu" id="demo4">
+            <a href="#" class="list-group-item"><input type="checkbox">  0</a>
+            <a href="#" class="list-group-item"><input type="checkbox">  1</a>
+            <a href="#" class="list-group-item"><input type="checkbox">  2</a>
+            <a href="#" class="list-group-item"><input type="checkbox">  3</a>
+            <a href="#" class="list-group-item"><input type="checkbox">  4</a>
+            <a href="#" class="list-group-item"><input type="checkbox">  5</a>
+        
+          </div>
+          <a href="#demo5" class="list-group-item list-group-item strong" style="background: #f7f7f7;" data-toggle="collapse" data-parent="#MainMenu"><i class="fa fa-cubes"></i>  Health <i class="fa fa-caret-down"></i></a>
+          <div class="collapse list-group-submenu" id="demo5">
+            <a href="#" class="list-group-item"><input type="checkbox">  0</a>
+            <a href="#" class="list-group-item"><input type="checkbox">  1</a>
+            <a href="#" class="list-group-item"><input type="checkbox">  2</a>
+            <a href="#" class="list-group-item"><input type="checkbox">  3</a>
+            <a href="#" class="list-group-item"><input type="checkbox">  4</a>
+            <a href="#" class="list-group-item"><input type="checkbox">  5</a>
+            <a href="#" class="list-group-item"><input type="checkbox">  6</a>
+            <a href="#" class="list-group-item"><input type="checkbox">  7</a>
+          </div>
+            <a class="list-group-item list-group-item strong text-center" style="background: #3b4148; color: white;" data-toggle="collapse"><button type="button" class="btn btn-warning">search</button> </a>
+        </div>
+      </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
