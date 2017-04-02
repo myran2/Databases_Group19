@@ -12,7 +12,7 @@ body {
   width: 100%;
   height: 100%;
   padding: 30px 0 0 0;
-  background-color: #363b41;
+  background-color: #363b48;
   max-height: 100%;
   overflow-y: auto;
 }
@@ -29,6 +29,7 @@ h1 {
 .search-container {
   position: absolute;
   margin-left: -120px;
+  background: #3b4148;
   top: 140px;
   left: 50%;
 }
@@ -65,6 +66,7 @@ h1 {
   overflow-y: auto;
 }
 .list-group-submenu {
+  background: #3b4148;
   width: 250px;
   height: 25%;
   max-height:100%;
