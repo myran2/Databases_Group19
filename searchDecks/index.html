@@ -15,7 +15,7 @@
       <div class="search-container">
         <span class="glyphicon glyphicon-search" id="basic-addon1"> </span>
         <form>
-          <input type="text" class="search-bar" placeholder="Search" aria-describedby="basic-addon1">
+          <input type="text" id="searchBar" class="search-bar" placeholder="Search" aria-describedby="basic-addon1">
         </form>
       </div>
     </div>
@@ -26,28 +26,27 @@
 
     <!--  Drop down for Class-->
     <div class="collapse list-group-submenu" id="demo1">
-      <a href="#" class="list-group-item"><input type="checkbox">  Neutral</a>
-      <a href="#" class="list-group-item"><input type="checkbox">  Druid</a>
-      <a href="#" class="list-group-item"><input type="checkbox">  Mage</a>
-      <a href="#" class="list-group-item"><input type="checkbox">  Paladin</a>
-      <a href="#" class="list-group-item"><input type="checkbox">  Warrior</a>
-      <a href="#" class="list-group-item"><input type="checkbox">  Hunter</a>
-      <a href="#" class="list-group-item"><input type="checkbox">  Shaman</a>
-      <a href="#" class="list-group-item"><input type="checkbox">  Warlock</a>
-      <a href="#" class="list-group-item"><input type="checkbox">  Rogue</a>
+      <a href="#" class="list-group-item"><input id="druid" type="checkbox">  Druid</a>
+      <a href="#" class="list-group-item"><input id="mage" type="checkbox">  Mage</a>
+      <a href="#" class="list-group-item"><input id="paladin" type="checkbox">  Paladin</a>
+      <a href="#" class="list-group-item"><input id="warrior" type="checkbox">  Warrior</a>
+      <a href="#" class="list-group-item"><input id="hunter" type="checkbox">  Hunter</a>
+      <a href="#" class="list-group-item"><input id="shaman" type="checkbox">  Shaman</a>
+      <a href="#" class="list-group-item"><input id="warlock" type="checkbox">  Warlock</a>
+      <a href="#" class="list-group-item"><input id="rogue" type="checkbox">  Rogue</a>
     </div>
     <a href="#demo2" class="list-group-item list-group-item strong" style="background: #f7f7f7;" data-toggle="collapse" data-parent="#MainMenu"><i class="fa fa-book"></i> Format <i class="fa fa-caret-down"></i></a>
     <!--  Drop down for Format-->
     <div class="collapse list-group-submenu" id="demo2">
-      <a href="#" class="list-group-item"><input type="checkbox">  Wild</a>
-      <a href="#" class="list-group-item"><input type="checkbox">  Standard</a>
+      <a href="#" class="list-group-item"><input id="wild" type="checkbox" checked>  Wild</a>
+      <a href="#" class="list-group-item"><input id="stand" type="checkbox" checked>  Standard</a>
     </div>
 
 
     <a href="#demo3" class="list-group-item list-group-item strong" style="background: #f7f7f7;" data-toggle="collapse" data-parent="#MainMenu"><i class="fa fa-book"></i> Card in Deck <i class="fa fa-caret-down"></i></a>
     <!--  Drop down for date before-->
     <div class="collapse list-group-submenu" id="demo3">
-      <a href="#" class="list-group-item"><input type="text"> </a>
+      <a href="#" class="list-group-item"><input id="createdBefore" type="text"> </a>
     </div>
 
 
@@ -55,19 +54,19 @@
     <a href="#demo4" class="list-group-item list-group-item strong" style="background: #f7f7f7;" data-toggle="collapse" data-parent="#MainMenu"><i class="fa fa-book"></i> Created Before <i class="fa fa-caret-down"></i></a>
     <!--  Drop down for after-->
     <div class="collapse list-group-submenu" id="demo4">
-      <a href="#" class="list-group-item"><input type="text"> </a>
+      <a href="#" class="list-group-item"><input id="createdAfter" type="text"> </a>
     </div>
 
     <a href="#demo5" class="list-group-item list-group-item strong" style="background: #f7f7f7;" data-toggle="collapse" data-parent="#MainMenu"><i class="fa fa-book"></i> Created After <i class="fa fa-caret-down"></i></a>
     <!--  Drop down for after-->
     <div class="collapse list-group-submenu" id="demo5">
-      <a href="#" class="list-group-item"><input type="text"> </a>
+      <a href="#" class="list-group-item"><input id:"modifiedBefore" type="text"> </a>
     </div>
 
     <a href="#demo6" class="list-group-item list-group-item strong" style="background: #f7f7f7;" data-toggle="collapse" data-parent="#MainMenu"><i class="fa fa-book"></i> Modified Before <i class="fa fa-caret-down"></i></a>
     <!--  Drop down for after-->
     <div class="collapse list-group-submenu" id="demo6">
-      <a href="#" class="list-group-item"><input type="text"> </a>
+      <a href="#" class="list-group-item"><input id="modifiedAfter" type="text"> </a>
     </div>
 
     <a href="#demo7" class="list-group-item list-group-item strong" style="background: #f7f7f7;" data-toggle="collapse" data-parent="#MainMenu"><i class="fa fa-book"></i> Modified After <i class="fa fa-caret-down"></i></a>
@@ -76,7 +75,7 @@
       <a href="#" class="list-group-item"><input type="text"> </a>
     </div>
 
-      <a class="list-group-item list-group-item strong text-center" style="background: #3b4148; color: white;" data-toggle="collapse"><button type="button" class="btn btn-warning">search</button> </a>
+      <a class="list-group-item list-group-item strong text-center" style="background: #3b4148; color: white;" data-toggle="collapse"><button id="searchDeckBtn" type="button" class="btn btn-warning">search</button> </a>
   </div>
 </div>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
