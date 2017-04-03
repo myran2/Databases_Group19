@@ -1,7 +1,7 @@
 body {
   padding-top: 50px;
   padding-bottom: 30px;
-  background-color: #363b41;
+  background-color: white;
 }
 
 
@@ -136,18 +136,18 @@ p {
 p a {
   background: rgba(255, 255, 255, 0);
   border-bottom: 1px solid;
-  color: #fff;
+  color: dodgerblue
   line-height: 1.4;
   padding: .25em;
   text-decoration: none;
 }
 p a:hover {
   background: white;
-  color: #E1332D;
+  color: dodgerblue;
 }
 
 .btn {
-  color: #fff;
+  color: dodgerblue;
   cursor: pointer;
   display: block;
   font-size: 16px;
@@ -184,7 +184,7 @@ p a:hover {
 }
 
 .btn-1 {
-  background: #363b41;
+  background: white;
   font-weight: 100;
 }
 .btn-1 svg {
