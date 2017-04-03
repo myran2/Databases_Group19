@@ -19,8 +19,8 @@ body {
 
 .filter-container {
   position: fixed;
-  top: 140;
-  left: 50;
+  top: 200;
+  left:41.25%;
   z-index:100;
   width: 252px;
   height: 100%;
@@ -47,7 +47,7 @@ h1 {
   left: 50%;
 }
 
-.result, .search-bar {
+.search-bar {
   text-rendering: optimizelegibility;
   width: 240px;
   font-size: 20px;
@@ -63,10 +63,6 @@ h1 {
   background: #FFFFFF;
   color: dodgerblue;
   top: 0;
-}
-
-.result {
-  color: #bebebe;
 }
 
 .list-group.panel > .list-group-item {

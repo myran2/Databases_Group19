@@ -21,8 +21,8 @@ body {
 
 .filter-container {
   position: fixed;
-  top: 140;
-  left: 50;
+  top: 200;
+  left: 41.25%;
   z-index:100;
   width: 252px;
   height: 70%;
