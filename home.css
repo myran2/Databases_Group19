@@ -173,6 +173,7 @@ p a:hover {
 }
 .btn:hover {
   text-decoration: none;
+  color: #F77D03;
 }
 
 .btn-1 {
