@@ -56,6 +56,11 @@ body {
   color:#F77D03;
 }
 
+.homeJumbotron {
+  background-color: dodgerblue;
+  color: white;
+
+}
 h1 {
   color: $white;
   font-size: 1.25em;
