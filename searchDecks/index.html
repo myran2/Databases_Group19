@@ -11,18 +11,18 @@
   </head>
   <body>
     <div class="container" id="col-md-8">
-      <h1 class="center h1">Search for Decks</h1>
+      <h1 class="center h1" style="color: #FFFFFF">Search for Decks</h1>
       <div class="search-container">
-        <span class="glyphicon glyphicon-search" id="basic-addon1"> </span>
         <form>
           <input type="text" id="searchBar" class="search-bar" placeholder="Search" aria-describedby="basic-addon1">
+          <span class="glyphicon glyphicon-search" id="basic-addon1"> </span>
         </form>
       </div>
     </div>
 <div class="filter-container" id="col-md-4">
   <div class="list-group panel">
-    <a class="list-group-item list-group-item strong text-center" style="background: #3b4148; color: white;" data-toggle="collapse"> Filters</a>
-    <a href="#demo1" class="list-group-item list-group-item-success strong" style="background: #f7f7f7;" data-toggle="collapse" data-parent="#MainMenu"><i class="fa fa-photo"></i>Deck Class <i class="fa fa-caret-down"></i></a>
+    <a class="list-group-item list-group-item strong text-center" style="background: #3b4148; color: #FFFFFF;" data-toggle="collapse"> Filters</a>
+    <a href="#demo1" class="list-group-item list-group-item-success strong" style="background: #f7f9f9;" data-toggle="collapse" data-parent="#MainMenu"><i class="fa fa-photo"></i>Deck Class <i class="fa fa-caret-down"></i></a>
 
     <!--  Drop down for Class-->
     <div class="collapse list-group-submenu" id="demo1">
@@ -46,7 +46,7 @@
     <a href="#demo3" class="list-group-item list-group-item strong" style="background: #f7f7f7;" data-toggle="collapse" data-parent="#MainMenu"><i class="fa fa-book"></i> Card in Deck <i class="fa fa-caret-down"></i></a>
     <!--  Drop down for date before-->
     <div class="collapse list-group-submenu" id="demo3">
-      <a href="#" class="list-group-item"><input id="filterCard" type="text"> </a>
+      <a href="#" class="list-group-item"><input id="filterCard" placeholder="type a card name"type="text"> </a>
     </div>
 
 
@@ -54,25 +54,25 @@
     <a href="#demo4" class="list-group-item list-group-item strong" style="background: #f7f7f7;" data-toggle="collapse" data-parent="#MainMenu"><i class="fa fa-book"></i> Created Before <i class="fa fa-caret-down"></i></a>
     <!--  Drop down for after-->
     <div class="collapse list-group-submenu" id="demo4">
-      <a href="#" class="list-group-item"><input id="createdBefore" type="text"> </a>
+      <a href="#" class="list-group-item"><input id="createdBefore" placeholder="MM/DD/YYYY" type="text"> </a>
     </div>
 
     <a href="#demo5" class="list-group-item list-group-item strong" style="background: #f7f7f7;" data-toggle="collapse" data-parent="#MainMenu"><i class="fa fa-book"></i> Created After <i class="fa fa-caret-down"></i></a>
     <!--  Drop down for after-->
     <div class="collapse list-group-submenu" id="demo5">
-      <a href="#" class="list-group-item"><input id:"createdAfter" type="text"> </a>
+      <a href="#" class="list-group-item"><input id:"createdAfter" placeholder="MM/DD/YYYY" type="text"> </a>
     </div>
 
     <a href="#demo6" class="list-group-item list-group-item strong" style="background: #f7f7f7;" data-toggle="collapse" data-parent="#MainMenu"><i class="fa fa-book"></i> Modified Before <i class="fa fa-caret-down"></i></a>
     <!--  Drop down for after-->
     <div class="collapse list-group-submenu" id="demo6">
-      <a href="#" class="list-group-item"><input id="modifiedBefore" type="text"> </a>
+      <a href="#" class="list-group-item"><input id="modifiedBefore" placeholder="MM/DD/YYYY" type="text"> </a>
     </div>
 
     <a href="#demo7" class="list-group-item list-group-item strong" style="background: #f7f7f7;" data-toggle="collapse" data-parent="#MainMenu"><i class="fa fa-book"></i> Modified After <i class="fa fa-caret-down"></i></a>
     <!--  Drop down for after-->
     <div class="collapse list-group-submenu" id="demo7">
-      <a href="#" class="list-group-item"><input id="modifiedAfter" type="text"> </a>
+      <a href="#" class="list-group-item"><input id="modifiedAfter" placeholder="MM/DD/YYYY" type="text"> </a>
     </div>
 
       <a class="list-group-item list-group-item strong text-center" style="background: #3b4148; color: white;" data-toggle="collapse"><button id="searchDeckBtn" type="button" class="btn btn-warning">search</button> </a>
