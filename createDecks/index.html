@@ -11,6 +11,31 @@
   </head>
   <body>
     <div class="container" id="col-md-8">
+      <!-- start the navbar -->
+      <nav class="navbar navbar-default navbar-static-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a href="/" class="navbar-brand">Hearthstone DB</a>
+            <!-- <button type="button" class="btn btn-default navbar-btn">Search Cards</button> -->
+            
+              <div class="btn-group">
+                <a href="/searchCards" class="btn btn-white btn-default active navbar-btn">
+                    <i class="fa fa-cog" aria-hidden="true"></i> Search Cards
+                </a>
+                <a href="/searchDecks" class="btn btn-default navbar-btn">
+                    <i class="fa fa-ban" aria-hidden="true"></i> Search Decks
+                </a>
+                <a href="/createDecks" class="btn btn-default navbar-btn">Create Decks
+                </a>
+                
+              </div>
+              <p class="navbar-text navbar-right">Signed in as <a href="/signin" class="navbar-link">Henry Gordon</a></p>
+          </div>
+          
+
+        </div>    
+      </nav>
+      <!-- end of navbar -->
       <h1 class="center h1">Create Your Deck</h1>
       <div class="search-container">
         <span class="glyphicon glyphicon-search" id="basic-addon1"> </span>
