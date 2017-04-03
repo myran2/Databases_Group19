@@ -1,5 +1,5 @@
 body {
-  color: white;
+  color: dodgerblue;
   font-family: helvetica;
   -webkit-font-smoothing: antialiased;
 }
@@ -12,7 +12,7 @@ body {
   width: 100%;
   height: 100%;
   padding: 0 0 0 0;
-  background-color: #363b48;
+  background-color: white;
   max-height: 100%;
   overflow-y: auto;
 }
@@ -25,7 +25,7 @@ body {
   width: 252px;
   height: 100%;
   padding:30px 0 0 0;
-  background-color: #363b48;
+  background-color: white;
   max-height: 100%;
   overflow-y: auto;
 }
@@ -42,7 +42,7 @@ h1 {
 .search-container {
   position: absolute;
   margin-left: -120px;
-  background: #3b4148;
+  background: dodgerblue;
   top: 140px;
   left: 50%;
 }
@@ -61,7 +61,7 @@ h1 {
   border: 1px solid;
   position: absolute;
   background: #FFFFFF;
-  color: #3b4148;
+  color: dodgerblue;
   top: 0;
 }
 
@@ -73,13 +73,13 @@ h1 {
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
   width: 250px;
-  background: #3b4148;
-  color: #666;
+  background: dodgerblue;
+  color: dodgerblue;
   max-height: 100%;
   overflow-y: auto;
 }
 .list-group-submenu {
-  background: #3b4148;
+  background: dodgerblue;
   width: 250px;
   height: 25%;
   max-height:100%;
