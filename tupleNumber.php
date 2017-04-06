@@ -14,9 +14,33 @@
     The amount of tuples is: 
     <?php
         $db = new DB;
-        $sql = "SELECT COUNT(*) FROM Decks";
+        $sql = "SELECT (
+            SELECT COUNT(*) FROM Accounts
+            ) AS count1,
+            (
+            SELECT COUNT(*) FROM Cards
+            ) AS count2,
+            (
+            SELECT COUNT(*) FROM Collections
+            ) AS count3,
+            (
+            SELECT COUNT(*) FROM Deck_Meta
+            ) AS count4,
+            (
+            SELECT COUNT(*) FROM Decks
+            ) AS count5,
+            (
+            SELECT COUNT(*) FROM Effects
+            ) AS count6
+        FROM dual";
+        $totalRows = 0;
         $result = $db->select($sql);
-        echo $result[0]["COUNT(*)"];
+        for ($i = 1; $i < 7; $i++)
+        {
+            $totalRows += intval($result[0]["COUNT" . $i]);
+            //echo $result[0]["COUNT" . $i] . "</br>";
+        }
+        echo "<b>" . $totalRows . "</b>";
     ?>
   </body>
 </html>
