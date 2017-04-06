@@ -1,6 +1,7 @@
 <?php
 
-class DB {
+class DB 
+{
     // The database connection
     protected static $connection;
 
